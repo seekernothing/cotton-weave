@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.moon-dance-regular {
+  font-family: "Moon Dance", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.noto-serif- {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite IT Moderna";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 70px;
+    padding-top: 80px;
+    /* background-color: #FAFAFA; */
+
+
+}
+
+#left{
+    height:100%;
+    width:44%;
+    /* background-color:pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+#left h1{
+    font-size: 60px;
+    line-height:70px ;
+    font-weight: 600;
+    font-family: "Playwrite IT Moderna";
+}
+
+#bottom-left{
+    height: 60%;
+    width: 100%;
+   
+    /* background-color: yellow; */
+}
+
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 50px;
+
+}
+
+#color h5{
+    font-family: "Playwrite IT Moderna";
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    
+}
+
+#color1{
+    height: 30px;
+    width: 30px;
+    background-color: #e7ff00;
+    border-radius: 50%;
+}
+#color2{
+    height: 30px;
+    width: 30px;
+    background-color:#ff0050;
+    border-radius: 50%;
+}
+
+#left h2{
+    font-family:"Playwrite IT Moderna" ;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#left p{
+     font-family:"Playwrite IT Moderna" ;
+     font-size: 15px;
+     width: 100%;
+     color: #444;
+     line-height: 30px;
+}
+
+#right{
+    height:90%;
+    width:38%;
+    /* background-color:greenyellow; */
+    position: relative;
+  
+}
+
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: #ff0050; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 18px;
+      padding-left: 18px;
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-family: noto-serif;
+    font-weight: 500;
+}
+
+#right-top h5{
+    font-size: 16px;
+}
+
+#right-top h5 i{
+    color: goldenrod;
+}
+#right video{
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+#black-circle{
+    height: 120px;
+    width: 140px;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left:-15%;
+    top:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-circle:hover{
+    cursor: pointer;
+}
+
+#black-circle h5{
+    font-family:"Moon Dance" ;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+#cotton-h2{
+    position: absolute;
+    left: -8%;
+    bottom: -5%;
+    
+    /* background-color: red; */
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 18px;
+    font-weight: 600;
+
+}
